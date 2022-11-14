@@ -1,0 +1,75 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Go - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x404 /fo"Release/Go.res" /d "NDEBUG" /d "_AFXDLL" "D:\cswang1\C_pratices\Go_1.1\Go.rc"" 
+Creating temporary file "C:\DOCUME~1\wang\LOCALS~1\Temp\RSP77.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /Fp"Release/Go.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\cswang1\C_pratices\Go_1.1\board.cpp"
+"D:\cswang1\C_pratices\Go_1.1\BoardSizeDialog.cpp"
+"D:\cswang1\C_pratices\Go_1.1\ChildFrm.cpp"
+"D:\cswang1\C_pratices\Go_1.1\Go.cpp"
+"D:\cswang1\C_pratices\Go_1.1\GoDoc.cpp"
+"D:\cswang1\C_pratices\Go_1.1\GoServer.cpp"
+"D:\cswang1\C_pratices\Go_1.1\GoView.cpp"
+"D:\cswang1\C_pratices\Go_1.1\MainFrm.cpp"
+"D:\cswang1\C_pratices\Go_1.1\Move1.cpp"
+"D:\cswang1\C_pratices\Go_1.1\PlayStatusDlg.cpp"
+"D:\cswang1\C_pratices\Go_1.1\Rules.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\wang\LOCALS~1\Temp\RSP77.tmp" 
+Creating temporary file "C:\DOCUME~1\wang\LOCALS~1\Temp\RSP78.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /Fp"Release/Go.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\cswang1\C_pratices\Go_1.1\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\wang\LOCALS~1\Temp\RSP78.tmp" 
+Creating temporary file "C:\DOCUME~1\wang\LOCALS~1\Temp\RSP79.tmp" with contents
+[
+winmm.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/Go.pdb" /machine:I386 /out:"Release/Go.exe" 
+.\Release\board.obj
+.\Release\BoardSizeDialog.obj
+.\Release\ChildFrm.obj
+.\Release\Go.obj
+.\Release\GoDoc.obj
+.\Release\GoServer.obj
+.\Release\GoView.obj
+.\Release\MainFrm.obj
+.\Release\Move1.obj
+.\Release\PlayStatusDlg.obj
+.\Release\Rules.obj
+.\Release\StdAfx.obj
+.\Release\Go.res
+]
+Creating command line "link.exe @C:\DOCUME~1\wang\LOCALS~1\Temp\RSP79.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+board.cpp
+BoardSizeDialog.cpp
+ChildFrm.cpp
+Go.cpp
+GoDoc.cpp
+GoServer.cpp
+GoView.cpp
+MainFrm.cpp
+Move1.cpp
+PlayStatusDlg.cpp
+Rules.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Go.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
